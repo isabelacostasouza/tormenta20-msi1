@@ -1,0 +1,137 @@
+#armor {
+    background-color: lightgray;
+    // height: 500px;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    padding-top: 15px;
+}
+
+#chosen-armor {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    background-color: lightgreen;
+    padding: 20px;
+    text-align: center;
+    padding-bottom: 15px;
+    width: 96%;
+    margin-left: 2%;
+    h1 {
+        text-align: left;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    p {
+        padding-top: 10px;
+        padding-bottom: 0;
+        margin-bottom: 10px;
+    }
+    table {
+        width: 100%;
+        text-align: left;
+        border-collapse:separate;
+        border-spacing:0 10px;
+
+        td {
+            background-color: lightgray;
+            margin: 5px;
+            padding: 10px 10px 10px 0;
+        }
+        .armor-name, .armor-damage {
+            padding-left: 10px;
+            border-right: 1px solid #808080;
+            padding: 10px 10px 10px 20px;
+        }
+        .armor-range {
+            padding: 10px 10px 10px 10px;
+            background-color: lightgray;
+        }
+        .remove-button {
+            padding: 0;
+            padding-left: 10px;
+            width: 10px;
+        }
+    }
+}
+
+#list-armor {
+    margin-top: 20px;
+    background-color: #a5a0a0;
+    padding: 20px;
+    text-align: center;
+    padding-bottom: 15px;
+    overflow-y: scroll;
+    height: 200px;
+    width: 96%;
+    margin-left: 2%;
+    p {
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+    table {
+        width: 100%;
+        text-align: left;
+        border-collapse:separate;
+        border-spacing:0 10px;
+        margin-top: -15px;
+
+        td {
+            margin: 5px;
+            padding: 10px 10px 10px 0;
+            background-color: lightgray;
+        }
+        .armor-name, .armor-damage {
+            padding-left: 10px;
+            border-right: 1px solid #808080;
+            padding: 10px 10px 10px 20px;
+        }
+        .armor-range {
+            padding: 10px 10px 10px 10px;
+            background-color: lightgray;
+        }
+        .add-button {
+            padding: 0;
+            padding-left: 10px;
+            width: 10px;
+        }
+    }
+}
+
+button {
+    width: 100%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: #00bb13;
+    border: none;
+    font-weight: bold;
+    color: lightgray;
+    cursor: pointer;
+}
+
+.remove-armor {
+    border: 2px solid lightgray;
+    background-color: #ef0c0c;
+    width: 40px;
+}
+
+.add-armor {
+    border: 2px solid lightgray;
+    background-color: #00bb13;
+    width: 40px;
+}
+
+.add-button-disabled {
+    background-color: #7ecf86 !important;
+}
+
+.disabled {
+    background-color: #91c791;;
+}
+
+@media (max-width:600px) {
+    .panel-title {
+        height: 30px;
+        overflow: hidden;
+    }
+}
